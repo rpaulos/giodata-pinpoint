@@ -408,7 +408,7 @@ def format_wealth_data(df):
 
 def hero_product_ai_analysis(region, province, indicator, data, openai_api_key):
 
-    bank_products_df = pd.read_excel("data\\Bank Products.xlsx", sheet_name='Accounts')
+    bank_products_df = pd.read_excel("data/Bank Products.xlsx", sheet_name='Accounts')
 
     # --- Prompt ---
     prompt = f"""
