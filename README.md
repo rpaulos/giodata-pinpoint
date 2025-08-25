@@ -4,7 +4,7 @@
 <h2 align="center" id="pinpoint">The Future of Banking, Mapped for You</h2>
 
 <p align="center">
-  <a href="https://juandergo.aratilismk.com/">
+  <a href="https://rpaulos-giodata-pinpoint-app-zv5qax.streamlit.app/">
     <img src="https://img.shields.io/badge/-📍%20PinPoint-maroon?style=for-the-badge" alt="PinPoint" />
   </a>
   <a href="https://www.canva.com/design/DAGw-uexZzo/Q5nBn2KkSMCg6PWsHWlg_Q/edit?fbclid=IwY2xjawMZTTNleHRuA2FlbQIxMQABHhgOrkz-EJ9nvr1iCIGcevqiDvREcgcTkmbU_ZhjuX3jISVLY9GDu2Z4zgk-_aem_g_SkdNZJxn36IaDneFHnAA">
@@ -284,11 +284,11 @@ PinPoint integrates a collaborative crew of 3 specialized agents, each designed 
 <h2 id="how-to-access-pinpoint-online"> 📶 How to Access PinPoint Online</h2>
 
 <p align="justify" style="font-size: 16px; line-height: 1.6;">
-You can access PinPoint by pressing the button below or by manually entering the link (https://juandergo.aratilismk.com/) into your browser.
+You can access PinPoint by pressing the button below or by manually entering the link (https://rpaulos-giodata-pinpoint-app-zv5qax.streamlit.app/) into your browser.
 </p>
 
 <p align="center">
-  <a href="https://juandergo.aratilismk.com/">
+  <a href="https://rpaulos-giodata-pinpoint-app-zv5qax.streamlit.app/">
     <img src="https://img.shields.io/badge/-📍%20PinPoint-maroon?style=for-the-badge" alt="PinPoint" />
   </a>
 </p>
