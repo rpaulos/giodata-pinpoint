@@ -428,10 +428,10 @@ elif selected == 'Competitor Analysis':
     # Dependent filters (Region → Province → City)
     col1, col2, col3 = st.columns(3)
     with col1:
-        region = st.selectbox('Select Region', ['All'] + sorted(df['Region'].unique().tolist()))
+        region = st.selectbox('Select Region', ['All'] + sorted(df['Region'].unique().tolist()), index=2)
     with col2:
         province_options = df[df['Region'] == region]['Province'].unique().tolist() if region != 'All' else df['Province'].unique().tolist()
-        province = st.selectbox('Select Province', ['All'] + sorted(province_options))
+        province = st.selectbox('Select Province', ['All'] + sorted(province_options), index=2)
     with col3:
         city_options = df[df['Province'] == province]['City'].unique().tolist() if province != 'All' else df['City'].unique().tolist()
         city = st.selectbox('Select City', ['All'] + sorted(city_options))
