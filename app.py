@@ -330,7 +330,7 @@ elif selected == 'Pop-Up Strategy':
     st.title('Kababayan Connect: OFW Pop-Up Expansion Strategy')
     st.caption('Data Sources: Bangko Sentral ng Pilipinas (BSP), Philippine Statistics Authority (PSA), Department of Migrant Workers (DMW)')
 
-    df = pd.read_excel('data\\OFW Cash Remittances - All Countries.xlsx')
+    df = pd.read_excel('data/OFW Cash Remittances - All Countries.xlsx')
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
