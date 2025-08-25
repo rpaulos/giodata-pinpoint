@@ -24,7 +24,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-logo_image = "img\\logo.png"
+logo_image = "img/logo.png"
 st.sidebar.image(logo_image)
 
 with st.sidebar:
