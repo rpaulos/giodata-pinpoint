@@ -38,7 +38,7 @@ if selected == 'Hero Product Mapping':
     @st.cache_data
     def load_wealth_data():
         try:
-            df = pd.read_excel('data\\Wealth Indicator.xlsx', sheet_name='City Municipality')
+            df = pd.read_excel('data/Wealth Indicator.xlsx', sheet_name='City Municipality')
             return df
         except:
             st.error("Could not load Wealth Indicator.xlsx file")
@@ -48,11 +48,11 @@ if selected == 'Hero Product Mapping':
     def load_shapefile(scope):
         try:
             if scope == 'Regional':
-                return gpd.read_file('data\\gadm41_PHL_shp\\gadm41_PHL_1.shp')
+                return gpd.read_file('data/gadm41_PHL_shp/gadm41_PHL_1.shp')
             elif scope == 'Provincial':
-                return gpd.read_file('data\\gadm41_PHL_shp\\gadm41_PHL_1.shp')
+                return gpd.read_file('data/gadm41_PHL_shp/gadm41_PHL_1.shp')
             else:
-                return gpd.read_file('data\\gadm41_PHL_shp\\gadm41_PHL_2.shp')
+                return gpd.read_file('data/gadm41_PHL_shp/gadm41_PHL_2.shp')
         except:
             st.error(f"Could not load Philippines shapefile for {scope.lower()} level")
             st.stop()
@@ -173,7 +173,7 @@ if selected == 'Hero Product Mapping':
                 )
 
             # st.markdown(f"##### MSME's Distribution")
-            msmes_data = pd.read_excel('data\\Wealth Indicator.xlsx', sheet_name='MSMEs')
+            msmes_data = pd.read_excel('data/Wealth Indicator.xlsx', sheet_name='MSMEs')
             msmes_data = msmes_data[msmes_data['Region'] == selected_region]
 
             # Pie Chart
